@@ -27,7 +27,7 @@ spec:
                 - arm64
       containers:
       - name: nginx
-        image: public.ecr.aws/nginx/nginx:1.21
+        image: lakshmisree/project:tagname
         ports:
         - name: http
           containerPort: 80
