@@ -27,7 +27,7 @@ spec:
                 - arm64
       containers:
       - name: nginx
-        image: lakshmisree/project:latest
+        image: public.ecr.aws/nginx/nginx:1.21
         ports:
         - name: http
           containerPort: 80
